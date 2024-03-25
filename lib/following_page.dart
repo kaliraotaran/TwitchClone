@@ -15,7 +15,7 @@ class _FollowingPageState extends State<FollowingPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: bgColor,
-      body: getbody(),
+      body: getBody(),
     );
   }
   Widget getBody(){
@@ -41,7 +41,7 @@ class _FollowingPageState extends State<FollowingPage> {
     );
 
   }
-  Widget getVideoList(){
+  Widget getvideoList(){
     var size = MediaQuery.of(context).size;
     return Column(
       children: List.generate(10, (index){
@@ -50,12 +50,25 @@ class _FollowingPageState extends State<FollowingPage> {
             Row(
               children: [
                 Container(
-
-                )
+                    width: size.width *0.32,
+                    height: 80,
+                    decoration: BoxDecoration(
+                      color: primary
+                    ),
+                ),
+                SizedBox(width: 20,),
+                Flexible(
+                  child: Container(
+                    height: 110,
+                    decoration: BoxDecoration(
+                      color: secondary
+                    ),
+                  )
+                  )
               ],
-            )
+            ),
           ],
-        )
+        );
       })
     );
   }

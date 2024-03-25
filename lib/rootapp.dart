@@ -3,6 +3,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:icons_plus/icons_plus.dart';
+import 'package:myapp/following_page.dart';
 
 import 'colors.dart';
 
@@ -53,7 +54,7 @@ class _RootAppState extends State<RootApp> {
     );
   }
 
-  getBottom() {
+  Widget getBottom() {
     List iconItems =[
       AntDesign.heart_outline,
       AntDesign.compass_outline,
@@ -77,11 +78,14 @@ class _RootAppState extends State<RootApp> {
         child: Padding(
           padding: EdgeInsets.all(5),
           child: Row(
-        
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children:List.generate(iconItems.length, (index) {
               return GestureDetector(
                 onTap: () {
-                  pageindex = index;
+                  setState(() {
+                       pageindex = index;
+                  });
+               
                 },
                 child: Column(
                   children: [
@@ -102,11 +106,7 @@ class _RootAppState extends State<RootApp> {
     return IndexedStack(
       index: pageindex, 
       children: [
-        Center(
-          child: Text('Following', style: TextStyle(
-            color: white
-          ),),
-        ),
+        FollowingPage(),
         Center
         (child: Text('Discover', style: TextStyle(color: white ),),),
          Center
