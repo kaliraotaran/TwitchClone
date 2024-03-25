@@ -50,13 +50,13 @@ class _FollowingPageState extends State<FollowingPage> {
             Row(
               children: [
                 Container(
-                  
+
                 )
               ],
             )
           ],
         )
       })
-    )
+    );
   }
 }
