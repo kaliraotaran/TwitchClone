@@ -3,6 +3,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:icons_plus/icons_plus.dart';
+import 'package:myapp/discoverpage.dart';
 import 'package:myapp/following_page.dart';
 
 import 'colors.dart';
@@ -26,6 +27,7 @@ class _RootAppState extends State<RootApp> {
         preferredSize: Size.fromHeight(60),
       ),
       bottomNavigationBar: getBottom(),
+      body: getBody(),
 
     );
   }
@@ -107,8 +109,7 @@ class _RootAppState extends State<RootApp> {
       index: pageindex, 
       children: [
         FollowingPage(),
-        Center
-        (child: Text('Discover', style: TextStyle(color: white ),),),
+       DiscoverPage(),
          Center
         (child: Text('Browse', style: TextStyle(color: white ),),)
       ],
