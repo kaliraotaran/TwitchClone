@@ -3,6 +3,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:icons_plus/icons_plus.dart';
+import 'package:myapp/browse_page.dart';
 import 'package:myapp/discoverpage.dart';
 import 'package:myapp/following_page.dart';
 
@@ -110,8 +111,7 @@ class _RootAppState extends State<RootApp> {
       children: [
         FollowingPage(),
        DiscoverPage(),
-         Center
-        (child: Text('Browse', style: TextStyle(color: white ),),)
+         BrowsePage()
       ],
     );
   }
