@@ -218,7 +218,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
       child: Row(
         children: List.generate(discover_json_three.length, (index) 
         {
-         List tags=  discover_json_one[index]['tags'];
+         List tags=  discover_json_three[index]['tags'];
           return Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -350,6 +350,8 @@ class _DiscoverPageState extends State<DiscoverPage> {
       ),
     );
   }
+
+
   Widget getSectionFour(){
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,

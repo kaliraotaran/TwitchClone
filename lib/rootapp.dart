@@ -46,11 +46,11 @@ class _RootAppState extends State<RootApp> {
         ),
       ),),
       actions: [
-        IconButton(onPressed: (){}, icon: Icon(AntDesign.wifi_outline)),
-        IconButton(onPressed: (){}, icon: Icon(AntDesign.video_camera_add_outline)),
-        IconButton(onPressed: (){}, icon: Icon(AntDesign.inbox_outline)),
-        IconButton(onPressed: (){}, icon: Icon(FontAwesome.comment)),
-        IconButton(onPressed: (){}, icon: Icon(AntDesign.search_outline)),
+        IconButton(onPressed: (){}, icon: Icon(AntDesign.wifi_outline, color: Colors.white,)),
+        IconButton(onPressed: (){}, icon: Icon(AntDesign.video_camera_add_outline, color: Colors.white,)),
+        IconButton(onPressed: (){}, icon: Icon(AntDesign.inbox_outline, color: Colors.white,)),
+        IconButton(onPressed: (){}, icon: Icon(FontAwesome.comment, color: Colors.white,)),
+        IconButton(onPressed: (){}, icon: Icon(AntDesign.search_outline, color: Colors.white,)),
 
       ],
 

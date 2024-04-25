@@ -7,7 +7,7 @@ const List discover_json_one = [
     "name": "Timmac",
     "img_profile":
         "https://static-cdn.jtvnw.net/jtv_user_pictures/9b670be0-6299-473e-9c54-307685fc1e70-profile_image-50x50.png",
-    "title": "Gheto Kaiba - War is over | RUST | NoPixel WL BucketSt",
+    "title": "Gheto Kaiba - War is over ",
     "type": "GTA",
     "img_video":
         "https://static-cdn.jtvnw.net/previews-ttv/live_user_ray__c-440x248.jpg",
@@ -19,7 +19,7 @@ const List discover_json_one = [
     "name": "Missizfreak",
     "img_profile":
         "https://static-cdn.jtvnw.net/jtv_user_pictures/e71855ac-1166-4513-80c2-812f8b9aa7a4-profile_image-70x70.png",
-    "title": "เพิ่งตื่น โกโก้มิ้นก็อดกิน :(",
+    "title": "เพิ่งตื่น โกโก้มิ้นก็อดกิน ",
     "type": "GTA",
     "img_video":
         "https://static-cdn.jtvnw.net/previews-ttv/live_user_vanotica_-440x248.jpg",
