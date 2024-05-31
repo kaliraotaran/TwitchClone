@@ -172,6 +172,7 @@ class _FollowingPageState extends State<FollowingPage> {
                                           color: white.withOpacity(0.2),
                                           borderRadius: BorderRadius.circular(13)
                                         ),
+                                        
                                         child: Padding(
                                           padding: EdgeInsets.only(left: 8, right: 8, top: 2, bottom: 2),
                                           child: Text(tags[index],style: TextStyle(

@@ -272,6 +272,7 @@ Widget getBody(){
                         fontWeight: FontWeight.bold, color: white.withOpacity(0.5)
                         ),
                         ),
+                        
                      const SizedBox(height: 8,),
                         Row(
                           children: List.generate(tags.length, (index) {

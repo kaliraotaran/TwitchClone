@@ -398,6 +398,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
               ),
             const  SizedBox(height: 5,),
                 Row(
+                  
                   crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Container(
